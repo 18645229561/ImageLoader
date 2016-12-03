@@ -16,6 +16,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mImageLoader = ImageLoader.build(this);
         mImageView = (ImageView) findViewById(R.id.image);
-        mImageLoader.bindBitmap("http://h.hiphotos.baidu.com/zhidao/pic/item/6d81800a19d8bc3ed69473cb848ba61ea8d34516.jpg",mImageView,200,200);
+        mImageLoader.bindBitmap("http://img.dwstatic.com/lol/1403/260207513856/1396252324312.jpg",mImageView,200,200);
     }
 }
